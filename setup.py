@@ -9,14 +9,14 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 
 
 setup(
-    name="sunset-repos",
+    name="sunrise-repos",
     version="1.0.1",
-    author="Daniel Eriksson",
-    author_email="gustaf.daniel.eriksson@gmail.com",
-    description="Archive batches of GitHub repositories",
+    author="Taehyun Yoon",
+    author_email="taehyun.yoon.fm@gmail.com",
+    description="Unarchive batches of GitHub repositories",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/deriksson/sunset-repos",
+    url="https://github.com/th-yoon/sunrise-repos",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
@@ -27,5 +27,5 @@ setup(
     include_package_data=True,
     install_requires=["Click >= 7.0", "requests >= 2.22.0"],
     setup_requires=["flake8"],
-    entry_points={"console_scripts": ["sunset-repos=sunset_repos.cli:cli"]},
+    entry_points={"console_scripts": ["sunrise-repos=sunset_repos.cli:cli"]},
 )
