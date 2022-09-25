@@ -1,4 +1,4 @@
-= Sunset Repos: Archive batches of GitHub repositories
+= SunriseRepos: Unarchive batches of GitHub repositories
 
 
 == Installation
@@ -10,7 +10,7 @@ The application is available at PyPI. Install it from there using the following
 command:
 
 ----
-pip install sunset-repos
+pip install sunrise-repos
 ----
 
 You can also install directly from the source code by issuing the following
@@ -28,11 +28,11 @@ single column, then point the program to the file, using the following
 command template:
 
 ----
-sunset-repos <GitHub organisation> <CSV file>
+sunrise-repos <GitHub organisation> <CSV file>
 ----
 
 An example using process substitution to handle a single repository:
 
 ----
-sunset-repos GITHUB_ORGANISATION <(echo REPOSITORY_NAME)
+sunrise-repos GITHUB_ORGANISATION <(echo REPOSITORY_NAME)
 ----
