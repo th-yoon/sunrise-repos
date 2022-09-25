@@ -30,7 +30,7 @@ def _archive_repository(
     C.f. https://developer.github.com/v3/repos/#update-a-repository.
 
     """
-    project_settings = {"archived": "true"}
+    project_settings = {"archived": "false"}
 
     headers = {
         "Authorization": f"token {secret_token}",
