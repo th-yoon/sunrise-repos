@@ -10,7 +10,7 @@ with open("README.md", "r", encoding="utf-8") as readme_file:
 
 setup(
     name="sunrise-repos",
-    version="1.0.2",
+    version="1.0.3",
     author="Taehyun Yoon",
     author_email="taehyun.yoon.fm@gmail.com",
     description="Unarchive batches of GitHub repositories",
@@ -27,5 +27,5 @@ setup(
     include_package_data=True,
     install_requires=["Click >= 7.0", "requests >= 2.22.0"],
     setup_requires=["flake8"],
-    entry_points={"console_scripts": ["sunrise-repos=sunset_repos.cli:cli"]},
+    entry_points={"console_scripts": ["sunrise-repos=sunrise_repos.cli:cli"]},
 )
