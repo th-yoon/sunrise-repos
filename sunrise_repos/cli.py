@@ -3,7 +3,7 @@
 """
 import click
 
-from sunset_repos.archive import archive_repositories
+from sunrise_repos.unarchive import unarchive_repositories
 
 
 @click.command()
@@ -12,4 +12,7 @@ from sunset_repos.archive import archive_repositories
 @click.argument("csv")
 def cli(owner: str, csv: str) -> None:
     """A tool for archiving GitHub repositories."""
-    archive_repositories(owner, csv)
+    unarchive_repositories(owner, csv)
+
+if __name__ == '__main__':
+    cli()
