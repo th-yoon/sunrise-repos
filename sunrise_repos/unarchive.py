@@ -1,4 +1,4 @@
-"""Archive GitHub repositories.
+"""Unarchive GitHub repositories.
 
 """
 from getpass import getpass
